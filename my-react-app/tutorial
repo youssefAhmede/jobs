@@ -1,0 +1,110 @@
+// تحديث البيانات لتشمل "unite"
+const lessons = {
+  python: [
+    {
+      unite: 'Introductory Unit',
+      title: 'Introduction to Python',
+      subLessons: [
+        { title: 'Home', path: 'Home' },
+        { title: 'Introduction', path: 'Introduction' },
+        { title: 'Get Started', path: 'GetStarted' },
+        { title: 'Syntax', path: 'Syntax' },
+        { title: 'Comments', path: 'Comments' },
+      ],
+    },
+    {
+      unite: 'Core Concepts',
+      title: 'Variables and Data Types',
+      subLessons: [
+        { title: 'Variables', path: 'Variables' },
+        { title: 'Data Types', path: 'DataTypes' },
+      ],
+    },
+    {
+      unite: 'after all',
+      title: 'Strings',
+      subLessons: [
+        { title: 'Strings', path: 'Strings' },
+        { title: 'Advanced String Operations', path: 'StringOperations' },
+      ],
+    },
+  ],
+};
+
+// التعديل في NavContent
+const NavContent = ({ items }) => {
+  const [language, setLanguage] = useState(null);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(true);
+  const location = useLocation();
+
+  useEffect(() => {
+    const path = location.pathname;
+    if (path.includes('python') || path.includes('java') || path.includes('javascript') || path.includes('php') || path.includes('html')) {
+      setLanguage(path.split('/')[1]);
+      setIsSidebarVisible(true);
+    } else {
+      setLanguage(null);
+      setIsSidebarVisible(false);
+    }
+  }, [location]);
+
+  const handleLanguageChange = (lang) => {
+    setLanguage(lang);
+    setIsSidebarVisible(true);
+  };
+
+  const toggleSidebar = () => {
+    setIsSidebarVisible(!isSidebarVisible);
+  };
+
+  return (
+    <div>
+      <Nav setLanguage={handleLanguageChange} />
+      <div className="content-container">
+        {language && (
+          <>
+            {isSidebarVisible && (
+              <div className="sidebar-container">
+                <button className="sidebar-toggle-inside" onClick={toggleSidebar}>
+                  <strong>⨯</strong>
+                </button>
+                {/* عرض اسم اللغة واسم الوحدة */}
+                <h1>{language} tutorial</h1>
+                <h2>{lessons[language]?.find(lesson => lesson.subLessons.length > 0)?.unite}</h2>
+                <Sidebar
+                  lessons={lessons[language] || []}
+                  language={language}
+                />
+              </div>
+            )}
+            {!isSidebarVisible && (
+              <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+                <button className="sidebar-toggle" onClick={toggleSidebar}>
+                  ☰
+                </button>
+              </div>
+            )}
+          </>
+        )}
+
+        <div className="main-content-container">
+          <main className="main-content">
+            <Routes>
+              <Route path="/" element={<HomePage items={items} />} />
+              <Route path="/python/*" element={<Python />} />
+              <Route path="/java/*" element={<Java />} />
+              <Route path="/javascript/*" element={<JavaScript />} />
+              <Route path="/php/*" element={<Php />} />
+              <Route path="/html/*" element={<Html />} />
+              <Route path="/compiler" element={<Compiler />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/profile" element={<Profile />} />
+            </Routes>
+          </main>
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,0 +1,808 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+}
+#layout {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh; 
+}
+
+main {
+  padding-bottom:40px; 
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.data-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.view-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-button:hover {
+  background-color: #c4c4c4;
+}
+
+/* //////////////////////////////////////////   home */
+/* Home.css */
+
+/* الحاوية الرئيسية */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* العنوان */
+.heading {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* الفقرات */
+.paragraph {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* الفقرة الثانية مع هامش علوي */
+.paragraph-top {
+  margin-top: 10px;
+}
+
+/* الحاوية التي تحتوي على البطاقات */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* البطاقة الفردية */
+.card {
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  box-sizing: border-box;
+  text-align: center;
+}
+.card-link{
+  text-decoration: none;
+}
+.card img {
+  width: 190px;
+  border-radius: 5%;
+}
+
+.divName{
+  margin-top:5px;
+  margin-bottom:15px;  
+}
+.card-btn {
+  padding: 5px 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* //////////////////////////////////////////   footer */
+.footer {
+  background-color: #333; /* استخدم background-color بدلاً من backgroundColor */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footerdiv {
+  max-width: 1200px; /* استخدم max-width بدلاً من maxWidth */
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; /* استخدم flex-wrap بدلاً من flexWrap */
+  justify-content: space-between; /* استخدم justify-content بدلاً من justifyContent */
+}
+
+.footer-1 {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-2 {
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-3 {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.footer-4 {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.footer-5 {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-6 {
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-7 {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-8 {
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-9 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-10 {
+  text-decoration: none;
+}
+
+.footer-11 {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-12 {
+  text-decoration: none;
+}
+
+.footer-13 {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-14 {
+  text-decoration: none;
+}
+
+.footer-15 {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-16 {
+  border-top: 1px solid #4CAF50;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+/* ///////////////////////////////////////////// mini-certificate */
+/* certificate-container */
+.certificate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  border: 1px solid black;
+}
+
+/* certificate-link */
+.certificate-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* certificate-content */
+.certificate-content {
+  padding: 15px;
+  padding-top: 0px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+/* arabic-text */
+.arabic-text {
+  direction: rtl;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* ltr-text */
+.ltr-text {
+  direction: ltr;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* view-button-container */
+.view-button-container {
+  margin-top: 10px;
+}
+
+/* view-button */
+.view-button {
+  padding: 5px 30px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* issue-date */
+.issue-date {
+  margin: 0;
+  padding: 0;
+}
+/* ///////////////////////////////////////////// CertificatePage */
+.certi-div {
+  background: #9A9A9A;
+  color: #fff;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding: 10px 20px;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.certi-link {
+  position: absolute;
+  left: 20px;
+}
+
+.certi-link2 {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 10px; 
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: normal; 
+  font-size: 14px;
+  display: inline-block; 
+  transition: background-color 0.3s ease;
+}
+
+.certi-span {
+  font-size: 18px; 
+  font-weight: bold;
+  text-align: center; 
+}
+
+.certi-name {
+  padding: 0px 20px;
+}
+
+.certi-h {
+  direction: ltr;
+}
+
+.certi-1 {
+  padding: 4px;
+  background: #c7ead6;
+}
+
+.certi-2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.certi-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.certi-div5 {
+  background: #9A9A9A; 
+  color: #fff;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0px 5px; 
+  margin: 0px; 
+  box-sizing: border-box; 
+  width: 100%;
+  direction: ltr;
+}
+
+.certi-link3 {
+  flex: 1;
+  text-align: left;
+}
+
+.certi-to {
+  background-color: #f0f0f0; 
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none; 
+  border-radius: 4px;
+  font-weight: normal; 
+  font-size: 14px; 
+  display: inline-block;
+  transition: background-color 0.3s ease; 
+}
+
+.certi-cername {
+  flex: 1;
+  text-align: center;
+}
+
+.certi-cername2 {
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+.certi-h3 {
+  text-align: center;
+  margin: 20px; 
+}
+
+.certi-span4 {
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+.certi-h33 {
+  text-align: center;
+  margin: 20px; 
+}
+
+.certi-divv {
+  flex: 1;
+}
+
+.certi-obj {
+  display: flex;
+  justify-content: flex-start;
+  direction: ltr;
+  padding-left: 10px;
+}
+
+.certi-key {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0px;
+  text-align: left; 
+}
+
+.certi-wra {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+.certi-id {
+  margin: 10px;
+  max-width: 250px;
+}
+
+/* ///////////////////////////////////////////// myprofile */
+/* Header Section */
+.header {
+  background: #9A9A9A;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.left-section {
+  flex: 1;
+  text-align: left;
+}
+
+.center-section {
+  flex: 1;
+  text-align: center;
+}
+
+.right-section {
+  flex: 1;
+}
+
+/* Link Style */
+.back-link {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+  background-color: #e0e0e0;
+}
+
+/* Email Text */
+.email-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Certificates Container */
+.certificates-container {
+  padding: 20px;
+}
+
+.certificate-group {
+  margin-bottom: 20px;
+}
+
+.certificate-title {
+  border: 1px solid black;
+  padding: 5px;
+  display: inline-block;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+.certificate-item {
+  margin: 10px;
+  max-width: 250px;
+}
+
+/* تصميم الهاتف المحمول */
+@media (max-width: 768px) {
+  /* الحاويات الرئيسية */
+  .container {
+    padding: 10px;
+    width: 80%;
+    margin-top: 20px;
+    /* background:red; */
+  }
+  .heading{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .paragraph{
+    /* font-size: 2.5rem; */
+    font-size: 1rem;
+    /* color: #333; */
+    /* margin-bottom: 10px; */
+  }
+  
+  .card-container {
+    /* flex-direction: column;  */
+    align-items: stretch; 
+     height: auto;
+  }
+
+  .card {
+    /* width: 100%; */
+    margin: 10px 10;
+  }
+  .card img{
+        width: 100%;
+  }
+  .footer-10 ,.footer-12, .footer-14{
+    /* margin:10px; */
+    padding:10px;
+  }
+  .view-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
+  .footer {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+
+  /* الحاويات التي تحتوي على البطاقات في الصفحة الرئيسية */
+  .data-container {
+    padding: 10px;
+  }
+
+  /* الخطوط والأزرار في صفحة الشهادات */
+  .certificate-container, .certi-div, .myprofile .header {
+    width: 100%;
+    padding: 10px;
+  }
+  
+
+  /* تحسين العرض للأزرار */
+  .certificate-btn, .view-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .email-text {
+    font-size: 16px;
+  }
+
+  /* تحسين عرض النصوص في الهيدر */
+  .header .left-section, .header .center-section, .header .right-section {
+    text-align: center;
+    flex: 1;
+  }
+
+  .footer-9 {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-9 a {
+    margin: 5px 0;
+  }
+
+  .footer-16 {
+    font-size: 14px;
+  }
+  .certi-id{
+    margin: 15px;
+    max-width: 200px;
+  }
+
+  .mini-h4{
+    padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  }
+
+  .certificate-item {
+    margin: 15px;
+    margin-bottom:0px;
+    max-width: 200px;
+  }
+}
+
+/* تصميم الأجهزة الصغيرة جداً */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    width: 80%;
+    /* width: 20%; */
+    margin-top: 20px;
+    /* background:red; */
+  }
+  .heading{
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .paragraph{
+    /* font-size: 2.5rem; */
+    font-size: 0.8rem;
+    /* color: #333; */
+    /* margin-bottom: 10px; */
+  }
+  
+  .card-container {
+    /* flex-direction: column;  */
+    align-items: stretch; 
+     height: auto;
+     /* background:red; */
+     /* width:20%; */
+  }
+  .card-btn{
+    padding:4px;
+  }
+  .card {
+    /* width: 100%; */
+    margin: 10px 10;
+     width:40%;
+    /* width: 20%; */
+  }
+  .footer-10 ,.footer-12, .footer-14{
+    /* margin:10px; */
+    padding:10px;
+  }
+  .view-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  .footer {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+
+  /* الحاويات التي تحتوي على البطاقات في الصفحة الرئيسية */
+  .data-container {
+    padding: 10px;
+  }
+
+  /* الخطوط والأزرار في صفحة الشهادات */
+  .certificate-container, .certi-div, .myprofile .header {
+    width: 100%;
+    /* width: 20%; */
+
+    padding: 10px;
+  }
+  /* .imgfordiv{
+    width:20%;
+    background:red;
+  } */
+  .certi-key {
+    
+    font-size: 10px;
+    
+  }
+  .certi-h3, .certi-h33{
+    font-size:14px;
+  }
+  /* تحسين العرض للأزرار */
+  .certificate-btn, .view-button {
+    padding: 10px 20px;
+    font-size: 10px;
+  }
+
+  .email-text {
+    font-size: 16px;
+  }
+
+  /* تحسين عرض النصوص في الهيدر */
+  .header .left-section, .header .center-section, .header .right-section {
+    text-align: center;
+    flex: 1;
+  }
+
+  .footer-9 {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-9 a {
+    margin: 5px 0;
+  }
+
+  .footer-16 {
+    font-size: 14px;
+  }
+  .certi-id{
+    margin: 15px;
+    max-width: 200px;
+
+  }
+
+  .mini-h4{
+    padding: 35px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size:12px;
+  }
+  .certificate-content {
+    /* padding: 15px; */
+    padding-top: 0px;
+    text-align: center;
+    width: 110px;
+    /* width: 197px;  */
+    /* width: 100%;  */
+    margin: 0px;
+  font-size:12px;
+
+  }
+  .certi-span{
+    font-size:14px;
+  }
+  .certi-link2 ,.certi-to{
+    font-size:10px;
+  }
+  .certi-button{
+    font-size:13px;
+  }
+  .certi-h{
+    font-size:9px;
+  }
+  .doco{
+    font-size:15px;
+  }
+  .certificate-item {
+    margin: 15px;
+    margin-bottom:0px;
+    max-width: 110px;
+  }
+}

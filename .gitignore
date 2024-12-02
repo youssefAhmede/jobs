@@ -1,0 +1,43 @@
+# بيئة Python و Django
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+venv/
+env/
+*.egg-info/
+
+# ملفات إعدادات البيئة
+backend/auth/.env
+
+# ملفات الإعدادات الخاصة بـ Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# إعدادات IDEs مثل Visual Studio Code
+.vscode/
+
+# ملفات خاصة بـ Django مثل الملفات المؤقتة
+*.sqlite3
+*.db
+*.log
+
+# ملفات إدارة الحزم
+*.lock
+package-lock.json
+yarn.lock
+
+# مجلدات التوزيع و الملفات المضغوطة
+dist/
+build/
+*.tar.gz
+*.zip
+
+# مجلدات خارجية غير مهمة
+my-react-app/dist/

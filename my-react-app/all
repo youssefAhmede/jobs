@@ -1,0 +1,459 @@
+Python Tutorial
+Python HOME
+Python Intro
+Python Get Started
+Python Syntax
+Python Comments
+Python Variables
+Python Variables
+Variable Names
+Assign Multiple Values
+Output Variables
+Global Variables
+Variable Exercises
+Python Data Types
+Python Numbers
+Python Casting
+Python Strings
+Python Strings
+Slicing Strings
+Modify Strings
+Concatenate Strings
+Format Strings
+Escape Characters
+String Methods
+String Exercises
+Python Booleans
+Python Operators
+Python Lists
+Python Lists
+Access List Items
+Change List Items
+Add List Items
+Remove List Items
+Loop Lists
+List Comprehension
+Sort Lists
+Copy Lists
+Join Lists
+List Methods
+List Exercises
+Python Tuples
+Python Tuples
+Access Tuples
+Update Tuples
+Unpack Tuples
+Loop Tuples
+Join Tuples
+Tuple Methods
+Tuple Exercises
+Python Sets
+Python Sets
+Access Set Items
+Add Set Items
+Remove Set Items
+Loop Sets
+Join Sets
+Set Methods
+Set Exercises
+Python Dictionaries
+Python Dictionaries
+Access Items
+Change Items
+Add Items
+Remove Items
+Loop Dictionaries
+Copy Dictionaries
+Nested Dictionaries
+Dictionary Methods
+Dictionary Exercises
+Python If...Else
+Python While Loops
+Python For Loops
+Python Functions
+Python Lambda
+Python Arrays
+Python Classes/Objects
+Python Inheritance
+Python Iterators
+Python Polymorphism
+Python Scope
+Python Modules
+Python Dates
+Python Math
+Python JSON
+Python RegEx
+Python PIP
+Python Try...Except
+Python User Input
+Python String Formatting
+
+File Handling
+Python File Handling
+Python Read Files
+Python Write/Create Files
+Python Delete Files
+
+Python Modules
+NumPy Tutorial
+Pandas Tutorial
+SciPy Tutorial
+Django Tutorial
+
+Python Matplotlib
+Matplotlib Intro
+Matplotlib Get Started
+Matplotlib Pyplot
+Matplotlib Plotting
+Matplotlib Markers
+Matplotlib Line
+Matplotlib Labels
+Matplotlib Grid
+Matplotlib Subplot
+Matplotlib Scatter
+Matplotlib Bars
+Matplotlib Histograms
+Matplotlib Pie Charts
+
+Machine Learning
+Getting Started
+Mean Median Mode
+Standard Deviation
+Percentile
+Data Distribution
+Normal Data Distribution
+Scatter Plot
+Linear Regression
+Polynomial Regression
+Multiple Regression
+Scale
+Train/Test
+Decision Tree
+Confusion Matrix
+Hierarchical Clustering
+Logistic Regression
+Grid Search
+Categorical Data
+K-means
+Bootstrap Aggregation
+Cross Validation
+AUC - ROC Curve
+K-nearest neighbors
+
+Python MySQL
+MySQL Get Started
+MySQL Create Database
+MySQL Create Table
+MySQL Insert
+MySQL Select
+MySQL Where
+MySQL Order By
+MySQL Delete
+MySQL Drop Table
+MySQL Update
+MySQL Limit
+MySQL Join
+
+Python MongoDB
+MongoDB Get Started
+MongoDB Create DB
+MongoDB Collection
+MongoDB Insert
+MongoDB Find
+MongoDB Query
+MongoDB Sort
+MongoDB Delete
+MongoDB Drop Collection
+MongoDB Update
+MongoDB Limit
+
+Python Reference
+Python Overview
+Python Built-in Functions
+Python String Methods
+Python List Methods
+Python Dictionary Methods
+Python Tuple Methods
+Python Set Methods
+Python File Methods
+Python Keywords
+Python Exceptions
+Python Glossary
+
+Module Reference
+Random Module
+Requests Module
+Statistics Module
+Math Module
+cMath Module
+
+Python How To
+Remove List Duplicates
+Reverse a String
+Add Two Numbers
+##########################
+##########################
+##########################
+##########################
+Python Basics
+Python - Home
+Python - Overview
+Python - History
+Python - Features
+Python vs C++
+Python - Hello World Program
+Python - Application Areas
+Python - Interpreter
+Python - Environment Setup
+Python - Virtual Environment
+Python - Basic Syntax
+Python - Variables
+Python - Data Types
+Python - Type Casting
+Python - Unicode System
+Python - Literals
+Python - Operators
+Python - Arithmetic Operators
+Python - Comparison Operators
+Python - Assignment Operators
+Python - Logical Operators
+Python - Bitwise Operators
+Python - Membership Operators
+Python - Identity Operators
+Python - Operator Precedence
+Python - Comments
+Python - User Input
+Python - Numbers
+Python - Booleans
+Python Control Statements
+Python - Control Flow
+Python - Decision Making
+Python - If Statement
+Python - If else
+Python - Nested If
+Python - Match-Case Statement
+Python - Loops
+Python - for Loops
+Python - for-else Loops
+Python - While Loops
+Python - break Statement
+Python - continue Statement
+Python - pass Statement
+Python - Nested Loops
+Python Functions & Modules
+Python - Functions
+Python - Default Arguments
+Python - Keyword Arguments
+Python - Keyword-Only Arguments
+Python - Positional Arguments
+Python - Positional-Only Arguments
+Python - Arbitrary Arguments
+Python - Variables Scope
+Python - Function Annotations
+Python - Modules
+Python - Built in Functions
+Python Strings
+Python - Strings
+Python - Slicing Strings
+Python - Modify Strings
+Python - String Concatenation
+Python - String Formatting
+Python - Escape Characters
+Python - String Methods
+Python - String Exercises
+Python Lists
+Python - Lists
+Python - Access List Items
+Python - Change List Items
+Python - Add List Items
+Python - Remove List Items
+Python - Loop Lists
+Python - List Comprehension
+Python - Sort Lists
+Python - Copy Lists
+Python - Join Lists
+Python - List Methods
+Python - List Exercises
+Python Tuples
+Python - Tuples
+Python - Access Tuple Items
+Python - Update Tuples
+Python - Unpack Tuples
+Python - Loop Tuples
+Python - Join Tuples
+Python - Tuple Methods
+Python - Tuple Exercises
+Python Sets
+Python - Sets
+Python - Access Set Items
+Python - Add Set Items
+Python - Remove Set Items
+Python - Loop Sets
+Python - Join Sets
+Python - Copy Sets
+Python - Set Operators
+Python - Set Methods
+Python - Set Exercises
+Python Dictionaries
+Python - Dictionaries
+Python - Access Dictionary Items
+Python - Change Dictionary Items
+Python - Add Dictionary Items
+Python - Remove Dictionary Items
+Python - Dictionary View Objects
+Python - Loop Dictionaries
+Python - Copy Dictionaries
+Python - Nested Dictionaries
+Python - Dictionary Methods
+Python - Dictionary Exercises
+Python Arrays
+Python - Arrays
+Python - Access Array Items
+Python - Add Array Items
+Python - Remove Array Items
+Python - Loop Arrays
+Python - Copy Arrays
+Python - Reverse Arrays
+Python - Sort Arrays
+Python - Join Arrays
+Python - Array Methods
+Python - Array Exercises
+Python File Handling
+Python - File Handling
+Python - Write to File
+Python - Read Files
+Python - Renaming and Deleting Files
+Python - Directories
+Python - File Methods
+Python - OS File/Directory Methods
+Python - OS Path Methods
+Object Oriented Programming
+Python - OOPs Concepts
+Python - Classes & Objects
+Python - Class Attributes
+Python - Class Methods
+Python - Static Methods
+Python - Constructors
+Python - Access Modifiers
+Python - Inheritance
+Python - Polymorphism
+Python - Method Overriding
+Python - Method Overloading
+Python - Dynamic Binding
+Python - Dynamic Typing
+Python - Abstraction
+Python - Encapsulation
+Python - Interfaces
+Python - Packages
+Python - Inner Classes
+Python - Anonymous Class and Objects
+Python - Singleton Class
+Python - Wrapper Classes
+Python - Enums
+Python - Reflection
+Python Errors & Exceptions
+Python - Syntax Errors
+Python - Exceptions
+Python - try-except Block
+Python - try-finally Block
+Python - Raising Exceptions
+Python - Exception Chaining
+Python - Nested try Block
+Python - User-defined Exception
+Python - Logging
+Python - Assertions
+Python - Built-in Exceptions
+Python Multithreading
+Python - Multithreading
+Python - Thread Life Cycle
+Python - Creating a Thread
+Python - Starting a Thread
+Python - Joining Threads
+Python - Naming Thread
+Python - Thread Scheduling
+Python - Thread Pools
+Python - Main Thread
+Python - Thread Priority
+Python - Daemon Threads
+Python - Synchronizing Threads
+Python Synchronization
+Python - Inter-thread Communication
+Python - Thread Deadlock
+Python - Interrupting a Thread
+Python Networking
+Python - Networking
+Python - Socket Programming
+Python - URL Processing
+Python - Generics
+Python Libraries
+NumPy Tutorial
+Pandas Tutorial
+SciPy Tutorial
+Matplotlib Tutorial
+Django Tutorial
+OpenCV Tutorial
+Python Miscellenous
+Python - Date & Time
+Python - Maths
+Python - Iterators
+Python - Generators
+Python - Closures
+Python - Decorators
+Python - Recursion
+Python - Reg Expressions
+Python - PIP
+Python - Database Access
+Python - Weak References
+Python - Serialization
+Python - Templating
+Python - Output Formatting
+Python - Performance Measurement
+Python - Data Compression
+Python - CGI Programming
+Python - XML Processing
+Python - GUI Programming
+Python - Command-Line Arguments
+Python - Docstrings
+Python - JSON
+Python - Sending Email
+Python - Further Extensions
+Python - Tools/Utilities
+Python - GUIs
+Python Advanced Concepts
+Python - Abstract Base Classes
+Python - Custom Exceptions
+Python - Higher Order Functions
+Python - Object Internals
+Python - Memory Management
+Python - Metaclasses
+Python - Metaprogramming with Metaclasses
+Python - Mocking and Stubbing
+Python - Monkey Patching
+Python - Signal Handling
+Python - Type Hints
+Python - Automation Tutorial
+Python - Humanize Package
+Python - Context Managers
+Python - Coroutines
+Python - Descriptors
+Python - Diagnosing and Fixing Memory Leaks
+Python - Immutable Data Structures
+Python Useful Resources
+Python - Questions & Answers
+Python - Online Quiz
+Python - Quick Guide
+Python - Projects
+Python - Useful Resources
+Python - Discussion
+Python Compiler
+NumPy Compiler
+Matplotlib Compiler
+SciPy Compiler
+Selected Reading
+UPSC IAS Exams Notes
+Developer's Best Practices
+Questions and Answers
+Effective Resume Writing
+HR Interview Questions
+Computer Glossary
+Who is Who
